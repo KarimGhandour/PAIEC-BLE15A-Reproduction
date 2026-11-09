@@ -1,0 +1,207 @@
+{
+  "scored_submission_id": 1032237,
+  "official_formative_brier_ALC": "0.1590607804",
+  "original_scored_archive": {
+    "name": "PAIEC_BLE15_A_PRODUCTION_001.zip",
+    "bytes": 695451321,
+    "sha256": "90a6a22560328e4ff5ec3f86375dbf567aecf802d2632fe6829878b339be7c3c",
+    "submission_id": 1032237,
+    "formative_brier_alc": "0.1590607804"
+  },
+  "local_original_hash_verified": true,
+  "fresh_server_container_hash_claimed": false,
+  "original_zip_members": 72,
+  "manifest_members": 71,
+  "unchanged_python_modules": 35,
+  "unchanged_nonconfig_members": 70,
+  "sanitized_config_changes": [
+    "API key removed",
+    "paid inference disabled"
+  ],
+  "other_container_differences": [
+    "PACKAGE_HASHES.json regenerated",
+    "outer ZIP compression/metadata may differ"
+  ],
+  "source_module_manifest": [
+    {
+      "path": "aims_openai_api.py",
+      "sha256": "0bdbe8fe2f74f04e5d0b703d000311cb28f748050953c32ebdb228cabce22497",
+      "bytes": 6503
+    },
+    {
+      "path": "aims_r1_transport.py",
+      "sha256": "3247f06f49554df381078e649ebd08ae350cb7030205ec20be527c83617aa2bc",
+      "bytes": 4010
+    },
+    {
+      "path": "ble15_runtime.py",
+      "sha256": "def125ec942a0cf000cb4f70fa4a54dd85afe723c9f773ea4fe6b9a8271120b5",
+      "bytes": 2573
+    },
+    {
+      "path": "comp_pipeline/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "comp_pipeline/script/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "comp_pipeline/script/agent_tools.py",
+      "sha256": "1026273f417668e2d5fcf3ff4873d0c656f1bacd4786b014e3df80014120a245",
+      "bytes": 8008
+    },
+    {
+      "path": "comp_pipeline/script/api_preflight.py",
+      "sha256": "dcd92a5bac93981b90f89a61bcc473f55362365ef0c48c2a8275798048f0409f",
+      "bytes": 2235
+    },
+    {
+      "path": "comp_pipeline/script/databank.py",
+      "sha256": "8db1312042e860cd87ec21ae35c288fdb64958a74c22153f7ec051341e4a40e0",
+      "bytes": 20831
+    },
+    {
+      "path": "comp_pipeline/script/dataroot.py",
+      "sha256": "08a9ee7945eadd132f6776753d1b8b32357fafe48d3b79df0b0dbbabdb930d0d",
+      "bytes": 6170
+    },
+    {
+      "path": "comp_pipeline/script/embedding_index.py",
+      "sha256": "e9649e044a6c9aedb7a0e3612265fee05f5ee610d8a599f136899a9239315588",
+      "bytes": 6749
+    },
+    {
+      "path": "comp_pipeline/script/openai_api.py",
+      "sha256": "0bdbe8fe2f74f04e5d0b703d000311cb28f748050953c32ebdb228cabce22497",
+      "bytes": 6503
+    },
+    {
+      "path": "model.py",
+      "sha256": "2372c2df60e1f20e0e6b44a742bc2e4839825e0bc7bc9dccdb7d1d5cd04877f2",
+      "bytes": 489
+    },
+    {
+      "path": "production.py",
+      "sha256": "e21911ad9ebaa73fc0646000cd7397eb1ba1e389cbe097ffffd4cb3068596e3d",
+      "bytes": 4178
+    },
+    {
+      "path": "production_budget.py",
+      "sha256": "c1e36c492ff3e0394dce99bf06f5ccd73ba21beabce6c0d9da6ba02ba591bd3a",
+      "bytes": 7101
+    },
+    {
+      "path": "r1api/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "r1api/assets.py",
+      "sha256": "4702fa8495cba1600cb08a5de1a43f68e6a5b9cf74d1f8679f0e0fa15b11d0b0",
+      "bytes": 2915
+    },
+    {
+      "path": "r1api/db.py",
+      "sha256": "3cf1930d59de7dbd85a0dbf4631226bbdd9af7bb2183579c3ef3eff0ff81144c",
+      "bytes": 20878
+    },
+    {
+      "path": "r1api/predictor.py",
+      "sha256": "7bd312bdd4df437cb093dc7ec1ab182823f9dcda0e3e3ba8df4b757f0e5ed311",
+      "bytes": 8506
+    },
+    {
+      "path": "r1api/predictor_common.py",
+      "sha256": "f0cddc2da298b24df863656c1e1aa7e470f188b9dc34e5948a4c64725a8f0c35",
+      "bytes": 3162
+    },
+    {
+      "path": "r1api/protocol.py",
+      "sha256": "61e34b0436dcf59086aebde09624de86058bdebc2adaf2d0d18bde866f28a7cb",
+      "bytes": 3889
+    },
+    {
+      "path": "r1api/question.py",
+      "sha256": "5ac3f09493b189cc877d6d1c4b058c3d66090fb7c20b4101ce2e0a88452f7fe7",
+      "bytes": 3087
+    },
+    {
+      "path": "r1api/responses.py",
+      "sha256": "15f9c585324b810b7b1af212113c4b006049aa8d1b657da0b7fe1c1aba26fea5",
+      "bytes": 18518
+    },
+    {
+      "path": "r1api/run_budget.py",
+      "sha256": "f210d052bdb5289326d729c2153d81f8d00dd530a9876d6f0afcd441fd64178a",
+      "bytes": 3082
+    },
+    {
+      "path": "r1api/semantic.py",
+      "sha256": "048276d0b20cd4c2deeba60169eb8a501b82eb518af7b9af5de324e0774777e6",
+      "bytes": 3174
+    },
+    {
+      "path": "r1api/trace_store.py",
+      "sha256": "ed8d1759401a0750e9acecdd62b73fc53af26a7d826ff78ecfba290ac040f770",
+      "bytes": 1307
+    },
+    {
+      "path": "r1api/util.py",
+      "sha256": "d4e9fc177df0a6ff2d4225dca4cb328372432f9fd8a8b46db4d34b77beb312e4",
+      "bytes": 772
+    },
+    {
+      "path": "src/agent/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "src/agent/agent.py",
+      "sha256": "5fc37cbfb70c1fe0282c2b4a2fb3bca32665a85fee26acd3de1a3d30d1dd4442",
+      "bytes": 6761
+    },
+    {
+      "path": "src/agent/belief_state.py",
+      "sha256": "cff1c678c2261d1e95173d59f792d7cc18d84c3e7d9990fb7c21d68e6fe06039",
+      "bytes": 2389
+    },
+    {
+      "path": "src/agent/llm_client.py",
+      "sha256": "5823a038c79a95cee5589f8692878dc7df979cfd8a0c751a0e4ac1c1c3cf4f64",
+      "bytes": 8547
+    },
+    {
+      "path": "src/agent/prompts.py",
+      "sha256": "653f7e2f1ff91e510b86c8434bfb4a4413b4aa1cd05ba76b8c857823d165b716",
+      "bytes": 4674
+    },
+    {
+      "path": "src/agent/tools.py",
+      "sha256": "fc202ee20f91e102ce62f51fbd5f5edbf8543771e5bd1a86a37c9005213c0603",
+      "bytes": 6369
+    },
+    {
+      "path": "src/config/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "src/config/config.py",
+      "sha256": "6a5b1354d2d9d3098cc8b6c56cd002c3c27c819710c84dcee2592c695d74a153",
+      "bytes": 1169
+    },
+    {
+      "path": "telemetry.py",
+      "sha256": "2939d24780e351d7fb5b4c74cec990b3784f6172374709fc74bb7416f8c3242d",
+      "bytes": 4718
+    }
+  ],
+  "frozen_runtime_modified_by_hardening": false,
+  "public_release_tag": "v1.5.0-rc.1",
+  "public_release_commit": "4d37176f2386cfc2ebcdb63eddfdf61c9d68267f",
+  "historical_R1_commit": "f50814a750aefad56378aa5b0e0e94c076bb7b58",
+  "verification_method": "Stream-hash local original archive and compare original members with published sanitized manifest; secret-pattern locations reported without values."
+}

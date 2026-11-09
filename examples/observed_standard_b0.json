@@ -1,0 +1,71 @@
+{
+  "kind": "observed_metadata_only",
+  "source_is_mock": false,
+  "source_has_paid_requests": true,
+  "new_requests_required_for_replay": 0,
+  "source_receipt_sha256": "0321b19e5e6dc6da7db45aeb905645af8f0d51b3c52132cdb0f3794acfe7130b",
+  "source_journal_sha256": "df51f41551cf257a066fe5fc6d07d8e59000f7689d36f29d3ebcedd7010426f5",
+  "provenance": "Historical local Standard/Medium technical live gate; source receipt checked by the author. Not the hidden scored evaluation.",
+  "source_receipt_publicly_available": false,
+  "evidence_content_released": false,
+  "prompts_released": false,
+  "outcomes_released": false,
+  "removed": [
+    "task and evidence text",
+    "item and subject identifiers",
+    "project/account identifiers",
+    "provider/request/session identifiers",
+    "generated rationale",
+    "encrypted reasoning payload"
+  ],
+  "budget": 0,
+  "responses": [
+    {
+      "position": 1,
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "service_tier": "default",
+      "validated": true,
+      "latency_seconds": 8.29012675001286,
+      "input_tokens": 8211,
+      "cached_input_tokens": 0,
+      "output_tokens": 488,
+      "reasoning_tokens": 239,
+      "belief_probability": 0.88,
+      "encrypted_continuation_present": true
+    },
+    {
+      "position": 2,
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "service_tier": "default",
+      "validated": true,
+      "latency_seconds": 5.164585040998645,
+      "input_tokens": 15102,
+      "cached_input_tokens": 8208,
+      "output_tokens": 309,
+      "reasoning_tokens": 77,
+      "belief_probability": 0.88,
+      "encrypted_continuation_present": true
+    }
+  ],
+  "tools": [
+    {
+      "position": 1,
+      "name": "semantic_search_items",
+      "seconds": 4.721252332965378
+    },
+    {
+      "position": 2,
+      "name": "find_model",
+      "seconds": 0.0032975419890135527
+    }
+  ],
+  "initialization_seconds": 50.84444604098098,
+  "forecast_seconds": 74.74360791698564,
+  "readout": "intermediate_return",
+  "reason": "Third_call_not_admitted",
+  "native_submit": false,
+  "readout_probability": 0.88,
+  "interpretation": "Second belief follows semantic evidence. The find_model result came after that belief and was not assimilated by a third response."
+}

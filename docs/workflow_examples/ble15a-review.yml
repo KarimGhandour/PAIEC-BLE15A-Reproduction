@@ -1,0 +1,41 @@
+# DESIGN ONLY: not in .github/workflows, no secret/workflow is created here.
+# Requires owner approval, protected Environment, reviewed SHA, and ephemeral runner.
+name: BLE 1.5-A approved one-case review
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: ble15a-approved-live-review
+  cancel-in-progress: false
+jobs:
+  live-review:
+    if: github.repository == 'KarimGhandour/PAIEC-BLE15A-Reproduction' && github.ref == 'refs/heads/main' && github.actor == 'KarimGhandour'
+    environment: BLE15A_REVIEW
+    runs-on: [self-hosted, linux, x64, paiec-authorized-ephemeral]
+    timeout-minutes: 15
+    env:
+      REVIEWED_COMMIT: REQUIRES_OWNER_APPROVED_FULL_COMMIT_SHA
+      PAIEC_RUNTIME_DIR: ${{ vars.BLE15A_RUNTIME_DIR }}
+    steps:
+      - name: Fail closed until an exact reviewed revision is approved
+        shell: bash
+        run: '[[ "$REVIEWED_COMMIT" =~ ^[a-f0-9]{40}$ ]]'
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: ${{ env.REVIEWED_COMMIT }}
+          persist-credentials: false
+      - name: Verify preprovisioned authorized runtime without a key
+        shell: bash
+        run: python3.12 scripts/run_authorized_ble15a.py preflight --runtime "$PAIEC_RUNTIME_DIR"
+      - name: One explicitly approved paid inference
+        shell: bash
+        env:
+          OPENAI_API_KEY: ${{ secrets.BLE15A_REVIEW_OPENAI_API_KEY }}
+          OPENAI_PROJECT_ID: ${{ vars.BLE15A_OPENAI_PROJECT_ID }}
+        run: >-
+          python3.12 scripts/run_authorized_ble15a.py live --allow-paid
+          --runtime "$PAIEC_RUNTIME_DIR"
+          --input examples/synthetic_authorized_input.json
+          --output-dir "$RUNNER_TEMP/ble15a-review-new"
+      # No artifacts/caches/private logs uploaded. Destroy ephemeral runner after review.

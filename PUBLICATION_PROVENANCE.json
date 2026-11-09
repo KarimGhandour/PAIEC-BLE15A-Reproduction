@@ -1,0 +1,27 @@
+{
+  "package": "BLE 1.5-A reviewer reproduction",
+  "package_version": "1.5.1-repro.1",
+  "publication_preparation_UTC": "2026-11-09T07:42:47.216155+00:00",
+  "post_competition_documentation": true,
+  "original_repository": "https://github.com/KarimGhandour/PAIEC-code-submission",
+  "reproduction_repository": "https://github.com/KarimGhandour/PAIEC-BLE15A-Reproduction",
+  "original_release_tag": "v1.5.0-rc.1",
+  "original_release_commit": "4d37176f2386cfc2ebcdb63eddfdf61c9d68267f",
+  "original_public_main_baseline": "0a102886a4e76acf93b40b53dbc3529973da5711",
+  "scored_submission_id": 1032237,
+  "official_formative_brier_ALC": "0.1590607804",
+  "original_scored_archive_sha256": "90a6a22560328e4ff5ec3f86375dbf567aecf802d2632fe6829878b339be7c3c",
+  "reviewed_hardening_baseline_zip_sha256": "583a4d1e4ae613b5c0513edcf2a2308646553581aa64518ba5c21baeb3e9141a",
+  "reviewer_package_changes_forecasting_algorithm": false,
+  "scored_python_modules_preserved": 35,
+  "restricted_asset_files_distributed": false,
+  "new_paid_API_calls": 0,
+  "historical_tags_moved": false,
+  "new_competition_submission": false,
+  "verification_limits": [
+    "35-module identity is against the verified local scored archive, not a fresh server-container hash.",
+    "Public aggregates do not independently regenerate hidden scoring.",
+    "All six derived assets need authorized access and transfer clearance.",
+    "Authentic released trajectory contains metadata only."
+  ]
+}

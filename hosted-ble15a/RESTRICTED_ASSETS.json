@@ -1,0 +1,179 @@
+{
+  "assets": [
+    {
+      "byte_identity": "Required by the existing reconstructor; corpus/protected/trace runtime also pins integrity. Any behavioral-equivalence reproduction needs explicit disclosure and validation.",
+      "bytes": 382120380,
+      "dependency_role": "Filtered numeric/keyword retrieval, source grouping and exclusion IDs.",
+      "description": "Compressed admitted-evidence SQLite corpus.",
+      "gaps": [
+        "File-level redistribution/access clearance",
+        "Independent exact derivation or approved equivalent reconstruction",
+        "Upstream and source-specific license obligations for retained contents"
+      ],
+      "origin": "Measurement DB at the pinned revision, with source-specific eligibility decisions.",
+      "path": "data/evidence.xz.bin",
+      "processing_lineage": "A derived SQLite corpus was pruned of unresolved distribution families, compacted by removing build/unreachable rows, then XZ-compressed. The decoded database is 6768676864 bytes. Global FTS/duplicate-check text is not equivalent to active numerical retrieval.",
+      "redistribution": {
+        "note": "Private submission inclusion and active-retrieval eligibility are not distribution permission.",
+        "private_reviewer": "UNVERIFIED: requires approved recipient/access/transfer conditions",
+        "public": "UNVERIFIED: no file-level clearance established"
+      },
+      "regeneration_status": "Not independently demonstrated from the public package alone; exact inputs, preparation and permission conditions remain necessary.",
+      "reviewer_access": "Proposed authorized exact-asset handoff; no guaranteed delivery channel is currently established.",
+      "sha256": "71c4794b96e2acd0f4f49c64aa5f982d8765f00767c38337461c5790a48e7eba"
+    },
+    {
+      "byte_identity": "Required by the existing reconstructor; corpus/protected/trace runtime also pins integrity. Any behavioral-equivalence reproduction needs explicit disclosure and validation.",
+      "bytes": 6177,
+      "dependency_role": "Accelerates frozen exclusion setup without removing dynamic per-forecast exclusions.",
+      "description": "Hash-bound blocked-ID firewall cache.",
+      "gaps": [
+        "File-level redistribution/access clearance",
+        "Independent exact derivation or approved equivalent reconstruction",
+        "Upstream and source-specific license obligations for retained contents"
+      ],
+      "origin": "The protected research set, exact corpus, excluded-family set and active permission policy.",
+      "path": "data/firewall_static_cache.json",
+      "processing_lineage": "A prior AuditedDB exclusion closure was materialized with blocked corpus IDs and dependency hashes; subsequent corpus compaction updated the bound corpus metadata while preserving exclusions.",
+      "redistribution": {
+        "note": "Private submission inclusion and active-retrieval eligibility are not distribution permission.",
+        "private_reviewer": "UNVERIFIED: requires approved recipient/access/transfer conditions",
+        "public": "UNVERIFIED: no file-level clearance established"
+      },
+      "regeneration_status": "Not independently demonstrated from the public package alone; exact inputs, preparation and permission conditions remain necessary.",
+      "reviewer_access": "Proposed authorized exact-asset handoff; no guaranteed delivery channel is currently established.",
+      "sha256": "1b09e48998484a1babd4f2b2cb7c22c9b242459df12e30bf186d1103688b4da4"
+    },
+    {
+      "byte_identity": "Required by the existing reconstructor; corpus/protected/trace runtime also pins integrity. Any behavioral-equivalence reproduction needs explicit disclosure and validation.",
+      "bytes": 547490,
+      "dependency_role": "Exact, source-group and near-duplicate research-input exclusions; current target/acquisitions are appended dynamically.",
+      "description": "Protected research inputs used by exclusion logic.",
+      "gaps": [
+        "File-level redistribution/access clearance",
+        "Independent exact derivation or approved equivalent reconstruction",
+        "Upstream and source-specific license obligations for retained contents"
+      ],
+      "origin": "32 earlier BLE research targets,16 development targets,112 earlier acquired inputs and42 development acquired inputs.",
+      "path": "data/protected_inputs.json",
+      "processing_lineage": "Historical protected-set assembly was compared by canonical hash to frozen A and matched all202 entries. Acquisition outcomes were discarded. Target records retain task text, subject/harness configuration and source/response identifiers.",
+      "redistribution": {
+        "note": "Private submission inclusion and active-retrieval eligibility are not distribution permission.",
+        "private_reviewer": "UNVERIFIED: requires approved recipient/access/transfer conditions",
+        "public": "UNVERIFIED: no file-level clearance established"
+      },
+      "regeneration_status": "Not independently demonstrated from the public package alone; exact inputs, preparation and permission conditions remain necessary.",
+      "reviewer_access": "Proposed authorized exact-asset handoff; no guaranteed delivery channel is currently established.",
+      "sha256": "26ec64c9bdcc2ef301fddf345f27109069e9808497340ab2dd4069699db217ed"
+    },
+    {
+      "byte_identity": "Required by the existing reconstructor; corpus/protected/trace runtime also pins integrity. Any behavioral-equivalence reproduction needs explicit disclosure and validation.",
+      "bytes": 4914337,
+      "dependency_role": "Index-row-to-item identity, ordering, admissibility and evidence content.",
+      "description": "Derived semantic item map and representations.",
+      "gaps": [
+        "File-level redistribution/access clearance",
+        "Independent exact derivation or approved equivalent reconstruction",
+        "Upstream and source-specific license obligations for retained contents"
+      ],
+      "origin": "Eligible binary-observed item representations from the pinned Measurement DB snapshot.",
+      "path": "data/semantic_items.json",
+      "processing_lineage": "Up to512 distinct source groups per family in content-hash order, global representation deduplication and source exclusions;13799 retained item records.",
+      "redistribution": {
+        "note": "Private submission inclusion and active-retrieval eligibility are not distribution permission.",
+        "private_reviewer": "UNVERIFIED: requires approved recipient/access/transfer conditions",
+        "public": "UNVERIFIED: no file-level clearance established"
+      },
+      "regeneration_status": "Not independently demonstrated from the public package alone; exact inputs, preparation and permission conditions remain necessary.",
+      "reviewer_access": "Proposed authorized exact-asset handoff; no guaranteed delivery channel is currently established.",
+      "sha256": "e00695e97ab98c974753c6f96c194c29e9b360ff50fa1e37f70eeeae77f803ba"
+    },
+    {
+      "byte_identity": "Required by the existing reconstructor; corpus/protected/trace runtime also pins integrity. Any behavioral-equivalence reproduction needs explicit disclosure and validation.",
+      "bytes": 21195392,
+      "dependency_role": "Query-to-item similarity ranking and reported similarity values.",
+      "description": "Generated MiniLM index vectors.",
+      "gaps": [
+        "File-level redistribution/access clearance",
+        "Independent exact derivation or approved equivalent reconstruction",
+        "Upstream and source-specific license obligations for retained contents"
+      ],
+      "origin": "The paired semantic item representations encoded locally by the pinned MiniLM model.",
+      "path": "data/semantic_vectors.npy",
+      "processing_lineage": "384-dimensional normalized vectors; fixed representation policy,256-token truncation, mean pooling and two normalization operations.",
+      "redistribution": {
+        "note": "Private submission inclusion and active-retrieval eligibility are not distribution permission.",
+        "private_reviewer": "UNVERIFIED: requires approved recipient/access/transfer conditions",
+        "public": "UNVERIFIED: no file-level clearance established"
+      },
+      "regeneration_status": "Not independently demonstrated from the public package alone; exact inputs, preparation and permission conditions remain necessary.",
+      "reviewer_access": "Proposed authorized exact-asset handoff; no guaranteed delivery channel is currently established.",
+      "sha256": "eca8f8c6566d6d0e3a4e0387bf62db9a3d841377f08d9a8c6aa38c78ed2377c9"
+    },
+    {
+      "byte_identity": "Required by the existing reconstructor; corpus/protected/trace runtime also pins integrity. Any behavioral-equivalence reproduction needs explicit disclosure and validation.",
+      "bytes": 311312384,
+      "dependency_role": "Retrieval of actual historical attempt trace excerpts.",
+      "description": "Chunked SQLite retrieval traces.",
+      "gaps": [
+        "File-level redistribution/access clearance",
+        "Independent exact derivation or approved equivalent reconstruction",
+        "Upstream and source-specific license obligations for retained contents"
+      ],
+      "origin": "Prepared trace stores from AlgoTune, BABILong, BRACE, DAVE, EditBench, Finegrain T2I and SWE-rebench; the final ChartMuseum trace store is empty.",
+      "path": "data/traces_chunked.sqlite",
+      "processing_lineage": "Prepared tool-visible text prefixes/full-length/hash metadata and original row order were migrated into SQLite lookup tables and zlib-compressed chunks; prior canonical comparison covered2255645 rows.",
+      "redistribution": {
+        "note": "Private submission inclusion and active-retrieval eligibility are not distribution permission.",
+        "private_reviewer": "UNVERIFIED: requires approved recipient/access/transfer conditions",
+        "public": "UNVERIFIED: no file-level clearance established"
+      },
+      "regeneration_status": "Not independently demonstrated from the public package alone; exact inputs, preparation and permission conditions remain necessary.",
+      "reviewer_access": "Proposed authorized exact-asset handoff; no guaranteed delivery channel is currently established.",
+      "sha256": "67459dbde2cd90cb6ee923f740162985545c2b24d5255e2efc6c6e38533ad7ac"
+    }
+  ],
+  "protected_input_provenance_verification": {
+    "acquired_inputs": 154,
+    "acquisition_outcome_values_discarded": true,
+    "canonical_hash_matches_frozen_A": true,
+    "development_targets": 16,
+    "entries": 202,
+    "evaluation_targets": 32,
+    "protected_contents_released": false
+  },
+  "public_model": {
+    "file_sha256": {
+      "1_Pooling/config.json": "4be450dde3b0273bb9787637cfbd28fe04a7ba6ab9d36ac48e92b11e350ffc23",
+      "LICENSE-APACHE-2.0.txt": "624b030fd62b8b989dd502d5bb6322cbc0dbb524ab9c9708f32efe33d7275735",
+      "README.md": "7dfc82496ec33f906b5b0d6750c1e2397da6530c74d1ae3568c55bc2739125e7",
+      "config.json": "953f9c0d463486b10a6871cc2fd59f223b2c70184f49815e7efbcab5d8908b41",
+      "config_sentence_transformers.json": "061ca9d39661d6c6d6de5ba27f79a1cd5770ea247f8d46412a68a498dc5ac9f3",
+      "model.safetensors": "53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db",
+      "modules.json": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf",
+      "sentence_bert_config.json": "fc1993fde0a95c24ec6c022539d41cf6e2f7c9721e5415d6fb6897472a9cd4b7",
+      "special_tokens_map.json": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+      "tokenizer.json": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037",
+      "tokenizer_config.json": "acb92769e8195aabd29b7b2137a9e6d6e25c476a4f15aa4355c233426c61576b",
+      "vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+    },
+    "license": "Apache-2.0",
+    "repository": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "c9745ed1d9f207416be6d2e6f8de32d1f16199bf"
+  },
+  "restricted_asset_count": 6,
+  "schema_version": 1,
+  "scored_artifact": {
+    "bytes": 695451321,
+    "formative_brier_alc": "0.1590607804",
+    "name": "PAIEC_BLE15_A_PRODUCTION_001.zip",
+    "sha256": "90a6a22560328e4ff5ec3f86375dbf567aecf802d2632fe6829878b339be7c3c",
+    "submission_id": 1032237
+  },
+  "status": "Local reviewed provenance draft; permissions unresolved",
+  "upstream_snapshot": {
+    "note": "Raw gated upstream access does not establish a byte-identical derivation path for the restricted files.",
+    "repository": "aims-foundations/measurement-db",
+    "revision": "54074453da7b9911be0f48e4c560be547bc84d21"
+  }
+}

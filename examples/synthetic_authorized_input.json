@@ -1,0 +1,4 @@
+[
+  {"normalized_name": "Invented coding agent", "harness": "synthetic-review-example", "provider": "invented", "reasoning_effort": "unknown"},
+  {"benchmark_id": "synthetic-directed-graph", "item_content": "Invented task: implement a directed graph cycle detector in Python, including self-loops and disconnected components. The hypothetical subject can edit code and run local tests. Estimate its success probability; no observed outcome is supplied.", "item_features": {"synthetic": true}}
+]

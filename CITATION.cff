@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite this release and separately credit the organizer-provided AIMS Foundations BLE."
+title: "PAIEC BLE 1.5-A: Reviewer Reproduction Package"
+type: software
+authors:
+  - family-names: Ghandour
+    given-names: Karim
+version: 1.5.1-repro.1
+license: MIT
+repository-code: "https://github.com/KarimGhandour/PAIEC-BLE15A-Reproduction"
+abstract: "Scored BLE 1.5-A source and executable offline companion to a PAIEC 2026 technical report. Historical public confirmation and official formative scoring are separate."
+date-released: 2026-11-09
